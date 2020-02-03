@@ -13,51 +13,24 @@ namespace UsingValueTypes
 
             ttt.Value = 500;
 
-            var test = ttt.Value;
+            Console.WriteLine(ttt.Value);
 
-           
-        }
-    }
+            Console.WriteLine(ttt.ToString());
 
+            Cycle degrees = new Cycle(0, 359);
+            Cycle quarters = new Cycle(1, 4);
 
-    struct Cycle
-    {
-        // Private Fields.
-        int _val, _min, _max;
-
-        //Constructor
-        public Cycle(int min, int max)
-        {
-            // Must Initialise all declared values, else error, try to commet initialization.
-            _val = min;
-            _min = min;
-            _max = max;
-        }
-
-        public int Value
-        {
-            get { return _val; }
-            set
+            for (int i = 0; i < 8; i++)
             {
-                if (value > _max)
-                {
-                    this.Value = value - _max + _min - 1;
-                }
-                else
-                {
-                    if (value <_min)
-                    {
-                        this.Value = _min - value + _max - 1;
-                    }
-                    else
-                    {
-                        _val = value;
-                    }
-                }
+                degrees += 90;
+                quarters += 1;
+                Console.WriteLine("Degrees = {0}, quarters = {1}", degrees, quarters);
+
+
             }
+
+            
+
         }
-
     }
-
-
 }
