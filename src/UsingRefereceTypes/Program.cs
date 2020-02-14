@@ -35,7 +35,7 @@ namespace UsingRefereceTypes
             Console.WriteLine("*********** Build a String in StringBuilder ************");
 
             StringBuilder sb = new StringBuilder(30);
-
+            
             sb.Append("wombat");     // wombat
             sb.Append(" kangaroo");  // wombat kangaroo
             sb.Append(" wallaby");   // wombat kangaroo wallaby
