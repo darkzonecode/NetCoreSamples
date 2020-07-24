@@ -100,6 +100,11 @@ namespace SerializingObject
         public void OnDeserialization(object sender)
         {
             total = price * quantity;
+
+
+
+
+
         }
     }
 
