@@ -50,7 +50,7 @@ namespace CustomSerialization
 
     // For Custom Binary Serialization.
     [Serializable]
-    public class ShoppingCartItem // : ISerializable
+    public class ShoppingCartItem : ISerializable
     {
         public int _productId;
         public decimal _price;
