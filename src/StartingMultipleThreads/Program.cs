@@ -24,7 +24,7 @@ namespace StartingMultipleThreads
 
             Console.WriteLine("Main Thread does some work than go sleep");
 
-            Thread.Sleep(10000);
+            //Thread.Sleep(10000);
 
             Console.WriteLine("Main thread exit.");
 
@@ -70,7 +70,7 @@ namespace StartingMultipleThreads
             #endregion
 
 
-
+            
 
 
         }
@@ -78,7 +78,7 @@ namespace StartingMultipleThreads
 
         static void ThreadProc(object stateInfo)
         {
-            //Thread.Sleep(1000);
+            Thread.Sleep(60000);
             Console.WriteLine("Hello from thread pool.");
         }
 
@@ -121,5 +121,6 @@ namespace StartingMultipleThreads
         }
 
     }
+
 
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.IO;
 
 namespace Collections
@@ -62,8 +63,17 @@ namespace Collections
 
             // ****************************************
 
-            
+            Dictionary<int, string> keyValuePairs = new Dictionary<int, string>
+            {
+                { 101 , "Hello error" },
+                { 202, "Another error" }
+            };
 
+            Dictionary<int, string> keyValuePairs1 = new Dictionary<int, string>
+            {
+                [101] = "Hello error",
+                [203] = "Another error"
+            };
 
 
         }

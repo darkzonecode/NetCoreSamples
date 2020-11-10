@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Text.Json;
 using System.Xml.Serialization;
 
 namespace SerializingXML
@@ -30,6 +31,7 @@ namespace SerializingXML
             fileStream.Close();
 
             Console.WriteLine(dateTime.ToString());
+
 
         }
     }

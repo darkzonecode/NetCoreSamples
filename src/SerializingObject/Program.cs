@@ -48,6 +48,8 @@ namespace SerializingObject
             data1 = (string)bf1.Deserialize(fs1);
 
             Console.WriteLine(data1);
+
+
         }
     }
 
