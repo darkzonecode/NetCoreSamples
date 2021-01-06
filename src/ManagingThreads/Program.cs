@@ -23,6 +23,9 @@ namespace ManagingThreads
 
             DoWorkThread.Name = "Andriy Thread";
 
+            // Before call Start() set thread priority here:
+            DoWorkThread.Priority = ThreadPriority.Normal; // Default is Normal.
+
             // Start the thred 
             DoWorkThread.Start();
 
