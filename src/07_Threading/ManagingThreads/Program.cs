@@ -21,7 +21,7 @@ namespace ManagingThreads
 
             DoWorkThread.Priority = ThreadPriority.Highest;
 
-            DoWorkThread.Name = "Andriy Thread";
+            DoWorkThread.Name = "My Super Thread";
 
             // Before call Start() set thread priority here:
             DoWorkThread.Priority = ThreadPriority.Normal; // Default is Normal.
@@ -58,8 +58,6 @@ namespace ManagingThreads
 
         }
 
-
-      
 
 
         public static void DoWork()

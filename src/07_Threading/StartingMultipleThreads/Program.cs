@@ -69,10 +69,6 @@ namespace StartingMultipleThreads
 
             #endregion
 
-
-            
-
-
         }
 
 
