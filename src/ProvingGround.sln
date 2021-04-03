@@ -51,6 +51,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreading", "07_Thread
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StartingMultipleThreads", "07_Threading\StartingMultipleThreads\StartingMultipleThreads.csproj", "{39D26392-09F7-481B-92FA-476C0BE53D66}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatingAndStartingTasks", "08_TaskParallelism\CreatingAndStartingTasks\CreatingAndStartingTasks.csproj", "{876C98DC-E570-4C33-AD0A-003E67EBF868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncAccessToResources", "SyncAccessToResources\SyncAccessToResources.csproj", "{F8890D07-63A4-4BD6-AD48-82FC5475571F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +125,14 @@ Global
 		{39D26392-09F7-481B-92FA-476C0BE53D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39D26392-09F7-481B-92FA-476C0BE53D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39D26392-09F7-481B-92FA-476C0BE53D66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876C98DC-E570-4C33-AD0A-003E67EBF868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876C98DC-E570-4C33-AD0A-003E67EBF868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876C98DC-E570-4C33-AD0A-003E67EBF868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876C98DC-E570-4C33-AD0A-003E67EBF868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8890D07-63A4-4BD6-AD48-82FC5475571F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8890D07-63A4-4BD6-AD48-82FC5475571F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8890D07-63A4-4BD6-AD48-82FC5475571F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8890D07-63A4-4BD6-AD48-82FC5475571F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -142,6 +154,8 @@ Global
 		{738A721F-CD21-489A-A413-A960784332C6} = {4155F0C9-8E52-4987-AD85-456C023962CF}
 		{1A4F5295-53B6-4E9C-A245-A1477DE6CA78} = {4155F0C9-8E52-4987-AD85-456C023962CF}
 		{39D26392-09F7-481B-92FA-476C0BE53D66} = {4155F0C9-8E52-4987-AD85-456C023962CF}
+		{876C98DC-E570-4C33-AD0A-003E67EBF868} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
+		{F8890D07-63A4-4BD6-AD48-82FC5475571F} = {4155F0C9-8E52-4987-AD85-456C023962CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB84D3D4-D425-46C6-8045-BF7BC36B8F25}

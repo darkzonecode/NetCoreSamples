@@ -73,8 +73,8 @@ namespace ConstructingClasses
 
     class EmailMessage : IMessage
     {
-        public string Message { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Address { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Message { get; set ; }
+        public string Address { get ; set; }
 
         public bool Send()
         {
