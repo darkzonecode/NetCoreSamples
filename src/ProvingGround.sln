@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAPToTask", "08_TaskParalle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinuationTasks", "08_TaskParallelism\ContinuationTasks\ContinuationTasks.csproj", "{AA1E4833-04A7-407B-B37D-60552E92CDFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParentChildTasks", "08_TaskParallelism\ParentChildTasks\ParentChildTasks.csproj", "{94B78A6C-87F4-4EA3-873E-219A06951C42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -175,6 +177,10 @@ Global
 		{AA1E4833-04A7-407B-B37D-60552E92CDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA1E4833-04A7-407B-B37D-60552E92CDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA1E4833-04A7-407B-B37D-60552E92CDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B78A6C-87F4-4EA3-873E-219A06951C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B78A6C-87F4-4EA3-873E-219A06951C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B78A6C-87F4-4EA3-873E-219A06951C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B78A6C-87F4-4EA3-873E-219A06951C42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -205,6 +211,7 @@ Global
 		{E73F0C1E-3BB6-42CB-BA62-E9F210786B0F} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
 		{A6DBE9EB-5E47-474E-BDB3-02BA76102B33} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
 		{AA1E4833-04A7-407B-B37D-60552E92CDFF} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
+		{94B78A6C-87F4-4EA3-873E-219A06951C42} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB84D3D4-D425-46C6-8045-BF7BC36B8F25}
