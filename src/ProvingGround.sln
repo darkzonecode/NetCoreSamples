@@ -55,13 +55,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatingAndStartingTasks", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncAccessToResources", "SyncAccessToResources\SyncAccessToResources.csproj", "{F8890D07-63A4-4BD6-AD48-82FC5475571F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancelingTasks", "08_TaskParallelism\CancelingTasks\CancelingTasks.csproj", "{D305D9ED-5B1F-42C7-A325-5FAE6F5B9C60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancelingTasks", "08_TaskParallelism\CancelingTasks\CancelingTasks.csproj", "{D305D9ED-5B1F-42C7-A325-5FAE6F5B9C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetResultFromTask", "08_TaskParallelism\GetResultFromTask\GetResultFromTask.csproj", "{2044A870-1884-4A54-A4AD-8557660D3167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetResultFromTask", "08_TaskParallelism\GetResultFromTask\GetResultFromTask.csproj", "{2044A870-1884-4A54-A4AD-8557660D3167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitOnRunningTask", "08_TaskParallelism\WaitOnRunningTask\WaitOnRunningTask.csproj", "{2FC70059-3FA5-4D39-ACE1-047E570D283A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaitOnRunningTask", "08_TaskParallelism\WaitOnRunningTask\WaitOnRunningTask.csproj", "{2FC70059-3FA5-4D39-ACE1-047E570D283A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingExceptions", "08_TaskParallelism\HandlingExceptions\HandlingExceptions.csproj", "{7EBE3705-10AA-4343-A15D-907F9553E1AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandlingExceptions", "08_TaskParallelism\HandlingExceptions\HandlingExceptions.csproj", "{7EBE3705-10AA-4343-A15D-907F9553E1AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APMToTask", "08_TaskParallelism\APMToTask\APMToTask.csproj", "{E73F0C1E-3BB6-42CB-BA62-E9F210786B0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAPToTask", "08_TaskParallelism\EAPToTask\EAPToTask.csproj", "{A6DBE9EB-5E47-474E-BDB3-02BA76102B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinuationTasks", "08_TaskParallelism\ContinuationTasks\ContinuationTasks.csproj", "{AA1E4833-04A7-407B-B37D-60552E92CDFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +163,18 @@ Global
 		{7EBE3705-10AA-4343-A15D-907F9553E1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EBE3705-10AA-4343-A15D-907F9553E1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EBE3705-10AA-4343-A15D-907F9553E1AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73F0C1E-3BB6-42CB-BA62-E9F210786B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73F0C1E-3BB6-42CB-BA62-E9F210786B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73F0C1E-3BB6-42CB-BA62-E9F210786B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73F0C1E-3BB6-42CB-BA62-E9F210786B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DBE9EB-5E47-474E-BDB3-02BA76102B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DBE9EB-5E47-474E-BDB3-02BA76102B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DBE9EB-5E47-474E-BDB3-02BA76102B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DBE9EB-5E47-474E-BDB3-02BA76102B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1E4833-04A7-407B-B37D-60552E92CDFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1E4833-04A7-407B-B37D-60552E92CDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1E4833-04A7-407B-B37D-60552E92CDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1E4833-04A7-407B-B37D-60552E92CDFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -184,6 +202,9 @@ Global
 		{2044A870-1884-4A54-A4AD-8557660D3167} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
 		{2FC70059-3FA5-4D39-ACE1-047E570D283A} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
 		{7EBE3705-10AA-4343-A15D-907F9553E1AE} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
+		{E73F0C1E-3BB6-42CB-BA62-E9F210786B0F} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
+		{A6DBE9EB-5E47-474E-BDB3-02BA76102B33} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
+		{AA1E4833-04A7-407B-B37D-60552E92CDFF} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB84D3D4-D425-46C6-8045-BF7BC36B8F25}
