@@ -68,7 +68,10 @@ namespace SyncAccessToResources
                 Console.WriteLine("Multiply: " + result);
 
             }
+
+            
         }
 
+        
     }
 }

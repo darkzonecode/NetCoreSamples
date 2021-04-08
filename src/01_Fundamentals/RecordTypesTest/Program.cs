@@ -20,7 +20,7 @@ namespace RecordTypesTest
 
             var newBlogPost = blogPost2 with { Post = "My second blog post" }; //new BlogPost("My second blog post", "Andriy Kostiv", "This is my post", dateTimeNow);
 
-           var (title, _, _, date) = newBlogPost;
+            var (title, _, _, date) = newBlogPost;
 
             Console.WriteLine(title);
             Console.WriteLine(date);

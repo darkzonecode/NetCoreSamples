@@ -84,7 +84,7 @@ namespace CustomSerialization
         }
 
         // The folowing method is called during serialization
-        [SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]
+        //[SecurityPermission(SecurityAction.Demand, SerializationFormatter = true)]  // Obsolete, not supported.
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {
             info.AddValue("Product ID", _productId);

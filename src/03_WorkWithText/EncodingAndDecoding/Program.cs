@@ -11,7 +11,7 @@ namespace EncodingAndDecoding
             Console.WriteLine("Hello World! How to encode an decode text.\n");
 
             StreamReader sr = new StreamReader(@"C:\Test\win.ini");
-            StreamWriter sw = new StreamWriter(@"C:\Test\win-utf7.txt", false, Encoding.UTF7);
+            StreamWriter sw = new StreamWriter(@"C:\Test\win-utf7.txt", false, Encoding.UTF8);
             sw.WriteLine(sr.ReadToEnd());
             sw.Close();
             sr.Close();

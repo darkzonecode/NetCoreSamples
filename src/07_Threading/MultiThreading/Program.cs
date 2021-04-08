@@ -42,8 +42,21 @@ namespace MultiThreading
 
             Console.WriteLine("Start print numbers using ThreadPool:");
 
-            ThreadPool.QueueUserWorkItem(PrintNumber10TimesWithParam);
-            
+            //ThreadPool.QueueUserWorkItem(PrintNumber10TimesWithParam);
+
+            // Context switching overheads: Every thread works on a slice of time that's been
+            // allocated to it.Once the time slice expires, context switching happens, which also
+            // wastes resources.
+            for (int i = 0; i < 1000000; i++)
+            {
+                int workerThreads;
+                int available;
+                ThreadPool.GetAvailableThreads(out workerThreads, out available);
+
+                Console.WriteLine($"Worker threads: {workerThreads}");
+                Console.WriteLine($"Available threads: {available}");
+                ThreadPool.QueueUserWorkItem(PrintNumber10TimesWithParam);
+            }
 
 
             Console.WriteLine("Finish print numbers using ThreadPool:");
