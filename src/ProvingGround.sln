@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelLoops", "09_DataPar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegreeOfParallelism", "09_DataParallelism\DegreeOfParallelism\DegreeOfParallelism.csproj", "{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartitionerDemo", "09_DataParallelism\PartitionerDemo\PartitionerDemo.csproj", "{F05636CA-DD38-4779-A616-3BCA8BB87435}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05636CA-DD38-4779-A616-3BCA8BB87435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05636CA-DD38-4779-A616-3BCA8BB87435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05636CA-DD38-4779-A616-3BCA8BB87435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05636CA-DD38-4779-A616-3BCA8BB87435}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -235,6 +241,7 @@ Global
 		{89E6971E-8D24-472D-8160-CE79C9AC4DA4} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
 		{237EA3CB-C40E-4452-9DED-09E87C1AB612} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
 		{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
+		{F05636CA-DD38-4779-A616-3BCA8BB87435} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB84D3D4-D425-46C6-8045-BF7BC36B8F25}
