@@ -63,13 +63,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaitOnRunningTask", "08_Tas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandlingExceptions", "08_TaskParallelism\HandlingExceptions\HandlingExceptions.csproj", "{7EBE3705-10AA-4343-A15D-907F9553E1AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APMToTask", "08_TaskParallelism\APMToTask\APMToTask.csproj", "{E73F0C1E-3BB6-42CB-BA62-E9F210786B0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APMToTask", "08_TaskParallelism\APMToTask\APMToTask.csproj", "{E73F0C1E-3BB6-42CB-BA62-E9F210786B0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EAPToTask", "08_TaskParallelism\EAPToTask\EAPToTask.csproj", "{A6DBE9EB-5E47-474E-BDB3-02BA76102B33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAPToTask", "08_TaskParallelism\EAPToTask\EAPToTask.csproj", "{A6DBE9EB-5E47-474E-BDB3-02BA76102B33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContinuationTasks", "08_TaskParallelism\ContinuationTasks\ContinuationTasks.csproj", "{AA1E4833-04A7-407B-B37D-60552E92CDFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContinuationTasks", "08_TaskParallelism\ContinuationTasks\ContinuationTasks.csproj", "{AA1E4833-04A7-407B-B37D-60552E92CDFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParentChildTasks", "08_TaskParallelism\ParentChildTasks\ParentChildTasks.csproj", "{94B78A6C-87F4-4EA3-873E-219A06951C42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParentChildTasks", "08_TaskParallelism\ParentChildTasks\ParentChildTasks.csproj", "{94B78A6C-87F4-4EA3-873E-219A06951C42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09_DataParallelism", "09_DataParallelism", "{BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelInvokeMethod", "09_DataParallelism\ParallelInvokeMethod\ParallelInvokeMethod.csproj", "{89E6971E-8D24-472D-8160-CE79C9AC4DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelLoops", "09_DataParallelism\ParallelLoops\ParallelLoops.csproj", "{237EA3CB-C40E-4452-9DED-09E87C1AB612}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegreeOfParallelism", "09_DataParallelism\DegreeOfParallelism\DegreeOfParallelism.csproj", "{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,6 +189,18 @@ Global
 		{94B78A6C-87F4-4EA3-873E-219A06951C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94B78A6C-87F4-4EA3-873E-219A06951C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94B78A6C-87F4-4EA3-873E-219A06951C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E6971E-8D24-472D-8160-CE79C9AC4DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E6971E-8D24-472D-8160-CE79C9AC4DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E6971E-8D24-472D-8160-CE79C9AC4DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E6971E-8D24-472D-8160-CE79C9AC4DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237EA3CB-C40E-4452-9DED-09E87C1AB612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237EA3CB-C40E-4452-9DED-09E87C1AB612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237EA3CB-C40E-4452-9DED-09E87C1AB612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237EA3CB-C40E-4452-9DED-09E87C1AB612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -212,6 +232,9 @@ Global
 		{A6DBE9EB-5E47-474E-BDB3-02BA76102B33} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
 		{AA1E4833-04A7-407B-B37D-60552E92CDFF} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
 		{94B78A6C-87F4-4EA3-873E-219A06951C42} = {E587BC78-2481-4EC6-A968-25A4D0F15F23}
+		{89E6971E-8D24-472D-8160-CE79C9AC4DA4} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
+		{237EA3CB-C40E-4452-9DED-09E87C1AB612} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
+		{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB84D3D4-D425-46C6-8045-BF7BC36B8F25}
