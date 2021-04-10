@@ -73,17 +73,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParentChildTasks", "08_Task
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09_DataParallelism", "09_DataParallelism", "{BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelInvokeMethod", "09_DataParallelism\ParallelInvokeMethod\ParallelInvokeMethod.csproj", "{89E6971E-8D24-472D-8160-CE79C9AC4DA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelInvokeMethod", "09_DataParallelism\ParallelInvokeMethod\ParallelInvokeMethod.csproj", "{89E6971E-8D24-472D-8160-CE79C9AC4DA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelLoops", "09_DataParallelism\ParallelLoops\ParallelLoops.csproj", "{237EA3CB-C40E-4452-9DED-09E87C1AB612}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParallelLoops", "09_DataParallelism\ParallelLoops\ParallelLoops.csproj", "{237EA3CB-C40E-4452-9DED-09E87C1AB612}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegreeOfParallelism", "09_DataParallelism\DegreeOfParallelism\DegreeOfParallelism.csproj", "{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegreeOfParallelism", "09_DataParallelism\DegreeOfParallelism\DegreeOfParallelism.csproj", "{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartitionerDemo", "09_DataParallelism\PartitionerDemo\PartitionerDemo.csproj", "{F05636CA-DD38-4779-A616-3BCA8BB87435}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartitionerDemo", "09_DataParallelism\PartitionerDemo\PartitionerDemo.csproj", "{F05636CA-DD38-4779-A616-3BCA8BB87435}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellingLoop", "09_DataParallelism\CancellingLoop\CancellingLoop.csproj", "{49BCBEC8-9C89-4945-82C7-CDEDB14C2C1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellingLoop", "09_DataParallelism\CancellingLoop\CancellingLoop.csproj", "{49BCBEC8-9C89-4945-82C7-CDEDB14C2C1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadStorage", "09_DataParallelism\ThreadStorage\ThreadStorage.csproj", "{DE7CE445-5472-46C8-AB62-F6A3B2715C86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadStorage", "09_DataParallelism\ThreadStorage\ThreadStorage.csproj", "{DE7CE445-5472-46C8-AB62-F6A3B2715C86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_UsingPLINQ", "10_UsingPLINQ", "{E2992966-8F07-4276-AD82-BB55FB000054}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsParallel", "10_UsingPLINQ\AsParallel\AsParallel.csproj", "{4A0575C0-C262-4059-9839-4FC509B50A84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11_SynchronizationPrimitives", "11_SynchronizationPrimitives", "{A30F6EEC-7464-4253-8237-48DC8AFC205F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interlocked", "11_SynchronizationPrimitives\Interlocked\Interlocked.csproj", "{079DEE10-0F67-44C8-9368-A8AF61E4F32D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -219,6 +227,14 @@ Global
 		{DE7CE445-5472-46C8-AB62-F6A3B2715C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE7CE445-5472-46C8-AB62-F6A3B2715C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE7CE445-5472-46C8-AB62-F6A3B2715C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A0575C0-C262-4059-9839-4FC509B50A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0575C0-C262-4059-9839-4FC509B50A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0575C0-C262-4059-9839-4FC509B50A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0575C0-C262-4059-9839-4FC509B50A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{079DEE10-0F67-44C8-9368-A8AF61E4F32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079DEE10-0F67-44C8-9368-A8AF61E4F32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079DEE10-0F67-44C8-9368-A8AF61E4F32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079DEE10-0F67-44C8-9368-A8AF61E4F32D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -256,6 +272,8 @@ Global
 		{F05636CA-DD38-4779-A616-3BCA8BB87435} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
 		{49BCBEC8-9C89-4945-82C7-CDEDB14C2C1C} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
 		{DE7CE445-5472-46C8-AB62-F6A3B2715C86} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
+		{4A0575C0-C262-4059-9839-4FC509B50A84} = {E2992966-8F07-4276-AD82-BB55FB000054}
+		{079DEE10-0F67-44C8-9368-A8AF61E4F32D} = {A30F6EEC-7464-4253-8237-48DC8AFC205F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB84D3D4-D425-46C6-8045-BF7BC36B8F25}
