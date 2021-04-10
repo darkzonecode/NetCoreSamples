@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartitionerDemo", "09_DataP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellingLoop", "09_DataParallelism\CancellingLoop\CancellingLoop.csproj", "{49BCBEC8-9C89-4945-82C7-CDEDB14C2C1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadStorage", "09_DataParallelism\ThreadStorage\ThreadStorage.csproj", "{DE7CE445-5472-46C8-AB62-F6A3B2715C86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{49BCBEC8-9C89-4945-82C7-CDEDB14C2C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49BCBEC8-9C89-4945-82C7-CDEDB14C2C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49BCBEC8-9C89-4945-82C7-CDEDB14C2C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE7CE445-5472-46C8-AB62-F6A3B2715C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE7CE445-5472-46C8-AB62-F6A3B2715C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE7CE445-5472-46C8-AB62-F6A3B2715C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE7CE445-5472-46C8-AB62-F6A3B2715C86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -249,6 +255,7 @@ Global
 		{7EA22FBF-3EAF-45A5-9275-9E2B61C00B22} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
 		{F05636CA-DD38-4779-A616-3BCA8BB87435} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
 		{49BCBEC8-9C89-4945-82C7-CDEDB14C2C1C} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
+		{DE7CE445-5472-46C8-AB62-F6A3B2715C86} = {BB811B1A-2486-4A5D-8EE6-DCF5C4AF3618}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB84D3D4-D425-46C6-8045-BF7BC36B8F25}
