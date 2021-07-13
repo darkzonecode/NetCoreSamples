@@ -75,6 +75,11 @@ namespace Collections
                 [203] = "Another error"
             };
 
+            Hashtable hashtable = new Hashtable();
+            hashtable.Add(1, 23);
+            hashtable.Add(2, 24);
+
+
 
         }
     }
@@ -86,5 +91,7 @@ namespace Collections
         {
             return new CaseInsensitiveComparer().Compare(y, x);
         }
+
     }
+
 }

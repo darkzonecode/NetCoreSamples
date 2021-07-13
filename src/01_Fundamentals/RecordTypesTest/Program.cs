@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.CompilerServices;
 
 namespace RecordTypesTest
 {
@@ -26,7 +27,7 @@ namespace RecordTypesTest
             Console.WriteLine(date);
             Console.WriteLine();
 
-            
+
 
 
             var me = new TestRecord("My FirstName", "My LastName");
