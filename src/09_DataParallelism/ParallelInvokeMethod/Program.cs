@@ -12,7 +12,7 @@ namespace ParallelInvokeMethod
             try
             {
                 Parallel.Invoke(() => Console.WriteLine("Action 1"),
-                    new Action(() => Console.WriteLine("Action 2")), 
+                    new Action(() => Console.WriteLine("Action 2")),
                     () => Console.WriteLine("Action 3"));
             }
             catch (AggregateException aggregateException)
