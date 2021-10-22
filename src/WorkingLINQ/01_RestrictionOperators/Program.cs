@@ -7,6 +7,9 @@ Console.WriteLine("Hello, LINQ Restriction operators!");
 LinqSamples samples = new LinqSamples();
 
 samples.Linq1();
+samples.Linq2();
+samples.Linq3();
+samples.List4();
 
 
 
@@ -15,6 +18,9 @@ public class LinqSamples
     private List<Product>? productList;
     private List<Customer>? customerList;
 
+    /// <summary>
+    /// This sample uses the where clause to find all elements of an array with a value less than 5.
+    /// </summary>
     internal void Linq1()
     {
         // This sample  uses the where clause  to find all elements  of an array with a value 
@@ -24,15 +30,84 @@ public class LinqSamples
 
         var lowNums =
             from num in numbers
-            where num<5
+            where num < 5
             select num;
 
         Console.WriteLine("Numbers <5:");
         foreach (var x in lowNums)
         {
             Console.WriteLine(x);
-        }        
+        }
     }
+
+    /// <summary>
+    /// This sample uses the where clause to find all products that are out of stock.
+    /// </summary>
+    internal void Linq2()
+    {
+        List<Product> products = GetProductList();
+
+        var soldOutProduct = 
+            from prod in products   
+            where prod.UnitsInStock == 0
+            select prod;
+        Console.WriteLine("Sold out products:");
+        foreach(var x in soldOutProduct)
+        {
+            Console.WriteLine("{0} is sold out", x.ProductName);
+        }
+
+    }
+
+    /// <summary>
+    /// This sample uses the where clause to find all products that are in  stock and cost 
+    /// more than 3.00 per unit
+    /// </summary>
+    /// <exception cref="NotImplementedException"></exception>
+    internal void Linq3()
+    {
+        throw new NotImplementedException();
+    }
+
+
+    /// <summary>
+    /// This sample uses the where  clause to find all customers in Washington and then it 
+    /// uses a foreach loop to iterate over the orders collection that belongs to each 
+    /// customer
+    /// </summary>
+    /// <exception cref="NotImplementedException"></exception>
+    internal void List4()
+    {
+        throw new NotImplementedException();
+    }
+
+    /// <summary>
+    /// This sample demonstrates an indexed where clause that returns digits whose name is 
+    /// shorter than their value
+    /// </summary>
+    /// <exception cref="NotImplementedException"></exception>
+    internal void List5()
+    {
+        throw new NotImplementedException();
+    }
+
+
+    public List<Product> GetProductList()
+    {
+        if (productList == null)
+            createLists();
+
+        return productList;
+    }
+
+    public List<Customer> GetCustomerList()
+    {
+        if (customerList == null)
+            createLists();
+
+        return customerList;
+    }
+
 
     void createLists()
     {
@@ -145,7 +220,6 @@ public class LinqSamples
             })
             .ToList();
     }
-
 
 }
 
