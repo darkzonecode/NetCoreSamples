@@ -95,6 +95,9 @@ namespace _02_ProjectionOperators
             }
         }
 
+        /// <summary>
+        /// This sample uses select to produce a sequence containing text representations of digits and whether their length is even or odd.
+        /// </summary>
         public void DataSetLinq10()
         {
 
@@ -115,6 +118,9 @@ namespace _02_ProjectionOperators
             }
         }
 
+        /// <summary>
+        /// This sample uses select to produce a sequence containing some properties of Products...
+        /// </summary>
         public void DataSetLinq11()
         {
 
@@ -135,7 +141,9 @@ namespace _02_ProjectionOperators
             }
         }
 
-
+        /// <summary>
+        /// This sample uses an indexed Select clause to determine if the value of ints in an array match their position in the array.
+        /// </summary>
         public void DataSetLinq12()
         {
 
@@ -154,6 +162,9 @@ namespace _02_ProjectionOperators
             }
         }
 
+        /// <summary>
+        /// This sample combines select and where to make a simple query that returns the text form of each digit less than 5.
+        /// </summary>
         public void DataSetLinq13()
         {
 
@@ -172,6 +183,9 @@ namespace _02_ProjectionOperators
             }
         }
 
+        /// <summary>
+        /// This sample uses a compound from clause to make a query that returns all pairs of numbers...
+        /// </summary>
         public void DataSetLinq14()
         {
 
@@ -191,6 +205,9 @@ namespace _02_ProjectionOperators
             }
         }
 
+        /// <summary>
+        /// This sample uses a compound from clause to select all orders where the order total is less than 500.00.
+        /// </summary>
         public void DataSetLinq15()
         {
 
@@ -212,6 +229,9 @@ namespace _02_ProjectionOperators
             ObjectDumper.Write(smallOrders);
         }
 
+        /// <summary>
+        /// This sample uses a compound from clause to select all orders where the order was made in 1998 or later.
+        /// </summary>
         public void DataSetLinq16()
         {
 
@@ -233,6 +253,9 @@ namespace _02_ProjectionOperators
             ObjectDumper.Write(myOrders);
         }
 
+        /// <summary>
+        /// This sample uses a compound from clause to select all orders where order total is greater than 2000.00...
+        /// </summary>
         public void DataSetLinq17()
         {
 
@@ -250,6 +273,9 @@ namespace _02_ProjectionOperators
             ObjectDumper.Write(myOrders);
         }
 
+        /// <summary>
+        /// This sample uses multiple from clauses so that filtering on customers can be done before selecting their orders...
+        /// </summary>
         public void DataSetLinq18()
         {
 
@@ -268,7 +294,9 @@ namespace _02_ProjectionOperators
             ObjectDumper.Write(myOrders);
         }
 
-        
+        /// <summary>
+        /// This sample uses an indexed SelectMany clause to select all orders...
+        /// </summary>
         public void DataSetLinq19()
         {
 
