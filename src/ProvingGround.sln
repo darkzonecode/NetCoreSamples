@@ -91,7 +91,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11_SynchronizationPrimitive
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interlocked", "11_SynchronizationPrimitives\Interlocked\Interlocked.csproj", "{079DEE10-0F67-44C8-9368-A8AF61E4F32D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_RestrictionOperators", "WorkingLINQ\01_RestrictionOperators\01_RestrictionOperators.csproj", "{C102C7D1-56A3-4718-92FA-F2DA0EB3A785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_RestrictionOperators", "WorkingLINQ\01_RestrictionOperators\01_RestrictionOperators.csproj", "{C102C7D1-56A3-4718-92FA-F2DA0EB3A785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ProjectionOperators", "WorkingLINQ\02_ProjectionOperators\02_ProjectionOperators.csproj", "{6650B61E-9E95-42AD-8CEF-A57FB1BAF918}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -235,6 +237,10 @@ Global
 		{C102C7D1-56A3-4718-92FA-F2DA0EB3A785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C102C7D1-56A3-4718-92FA-F2DA0EB3A785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C102C7D1-56A3-4718-92FA-F2DA0EB3A785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6650B61E-9E95-42AD-8CEF-A57FB1BAF918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6650B61E-9E95-42AD-8CEF-A57FB1BAF918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6650B61E-9E95-42AD-8CEF-A57FB1BAF918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6650B61E-9E95-42AD-8CEF-A57FB1BAF918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -274,6 +280,7 @@ Global
 		{4A0575C0-C262-4059-9839-4FC509B50A84} = {E2992966-8F07-4276-AD82-BB55FB000054}
 		{079DEE10-0F67-44C8-9368-A8AF61E4F32D} = {A30F6EEC-7464-4253-8237-48DC8AFC205F}
 		{C102C7D1-56A3-4718-92FA-F2DA0EB3A785} = {E7A41604-7C79-414E-B618-A415DF5A79DB}
+		{6650B61E-9E95-42AD-8CEF-A57FB1BAF918} = {E7A41604-7C79-414E-B618-A415DF5A79DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DB84D3D4-D425-46C6-8045-BF7BC36B8F25}

@@ -10,7 +10,7 @@ samples.Linq1();
 samples.Linq2();
 samples.Linq3();
 samples.List4();
-
+samples.List5();
 
 
 public class LinqSamples
@@ -66,7 +66,20 @@ public class LinqSamples
     /// <exception cref="NotImplementedException"></exception>
     internal void Linq3()
     {
-        throw new NotImplementedException();
+        List<Product> products = GetProductList();
+
+        var expensiveInStockProducts = 
+            from prod in products
+            where prod.UnitsInStock > 0 && prod.UnitPrice > 3M
+            select prod;
+
+        Console.WriteLine("In-stock products that cost more than 3.00:");
+        foreach (var product in expensiveInStockProducts)
+        {
+            Console.WriteLine("{0} is in stock and costs more than 3.00.", product.ProductName);
+        }
+
+
     }
 
 
@@ -78,7 +91,22 @@ public class LinqSamples
     /// <exception cref="NotImplementedException"></exception>
     internal void List4()
     {
-        throw new NotImplementedException();
+        List<Customer> customers = GetCustomerList();
+
+        var waCustomers =
+            from cust in customers
+            where cust.Region == "WA"
+            select cust;
+
+        Console.WriteLine("Customers from Washington and their orders:");
+        foreach (var customer in waCustomers)
+        {
+            Console.WriteLine("Customer {0}: {1}", customer.CustomerID, customer.CompanyName);
+            foreach (var order in customer.Orders)
+            {
+                Console.WriteLine("  Order {0}: {1}", order.OrderID, order.OrderDate);
+            }
+        }
     }
 
     /// <summary>
@@ -88,7 +116,15 @@ public class LinqSamples
     /// <exception cref="NotImplementedException"></exception>
     internal void List5()
     {
-        throw new NotImplementedException();
+        string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+        var shortDigits = digits.Where((digit, index) => digit.Length < index);
+
+        Console.WriteLine("Short digits:");
+        foreach (var d in shortDigits)
+        {
+            Console.WriteLine("The word {0} is shorter than its value.", d);
+        }
     }
 
 
